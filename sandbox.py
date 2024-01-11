@@ -1,4 +1,5 @@
 def primer(num=50):
+    """ param = range to search """
     prime_list, non_prime_list = [], []
     for a in range(2, num+1):
         c = 0
